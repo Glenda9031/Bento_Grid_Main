@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+/* GLOBAL STYLES */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --purple-100: hsl(254, 88%, 90%);
+  --purple-500: hsl(256, 67%, 59%);
+    
+  --yellow-100: hsl(31, 66%, 93%);
+  --yellow-500: hsl(39, 100%, 71%);
+    
+  --white: hsl(0, 0%, 100%);
+  --black: hsl(0, 0%, 7%);
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--black);
+  background-color: var(--white);
+}
+
+/* TYPOGRAPHY */
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    color: var(--white);
+}
+
+p {
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+
+.grow-followers h2 {
+    color: var(--white);
+    font-weight: 700;
+}
+
+.purple-500 {
+    background-color: var(--purple-500);
+}
+
+.purple-500-text {
+    color: var(--purple-500);
+}
+
+.purple-100 {
+    background-color: var(--purple-100);
+}
+
+.yellow-500 {
+    background-color: var(--yellow-500);
+}
+
+.yellow-100 {
+    background-color: var(--yellow-100);
+}
+
+/* LAYOUT */
+
+
