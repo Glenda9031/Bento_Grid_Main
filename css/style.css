@@ -118,9 +118,9 @@ h2 {
 
 #item-4 {
   grid-area: item-4;
+  background-color: var(--yellow-500);
   height: 165%;
   margin-top: -61%;
-  background-color: var(--yellow-500);
   gap: 2rem;
 }
 
@@ -138,9 +138,119 @@ h2 {
   filter: drop-shadow(0 0 0.75rem #0000004d);
 }
 
-#item-6 {
-  
+#item-5 h2 {
+  font-size: 1.7rem;
 }
 
+#item-6 {
+  grid-area: item-6;
+  background-color: var(--yellow-500);
+  gap: 2rem;    
+}
 
+#item-6 img {
+  margin-bottom: -6.25rem;
+}
+
+#item-7 {
+  grid-area: item-7;
+  background-color: var(--white);
+  justify-content: space-evenly;
+  gap: 2rem;
+}
+
+#item-7 h2 {
+  font-size: 3rem;
+}
+
+#item-8 {
+  grid-area: item-8;
+  background-color: var(--purple-500);
+  color: var(--white);
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+}
+
+#item-8 h2 {
+  font-size: 2.3rem;
+  font-weight: 500;
+}
+
+footer.attribution {
+  margin: 2rem auto;
+}
+
+#media (max-width: 71.75rem) {
+  html {
+    font-size: .75rem;
+  }
+
+  #item-4 {
+    margin-top: -9.375rem;
+  }
+}
+
+@media (max-width: 37.5625rem) {
+  main {
+    width: 90%;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      'item-2'
+      'item-5'
+      'item-6'
+      'item-3'
+      'item-8'
+      'item-7'
+      'item-1'
+      'item-4';
+  }
+
+  div {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: fit-content !important;
+  }
+
+  #item-5 {
+    gap: 2rem;
+  }
+
+  #item-5 img {
+    width: 12.5rem;
+    margin: 0 auto;
+  }
+
+  #item-5 h2 {
+    font-size: 1.4rem;
+  }
+
+  #item-6 img {
+    margin-bottom: -20%;
+  }
+
+  #item-3 img {
+    width: 15.625rem;
+  }
+
+  #item-8 {
+    flex-direction: column;
+    text-align: center;
+    gap: 1.3rem;
+  }
+
+  #item-7 {
+    align-items: flex-start;
+  }
+
+  #item-1 {
+    margin-bottom: 2.5rem;
+    align-items: flex-start;
+  }
+
+  #item-4 {
+    align-items: flex-start;
+  }
+}
 
